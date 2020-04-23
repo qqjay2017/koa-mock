@@ -1,0 +1,27 @@
+{
+  "name": "koa-mock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "@koa/router": "^9.0.0",
+    "chokidar": "^3.3.1",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "glob": "^7.1.6",
+    "koa": "^2.11.0",
+    "mockjs": "^1.1.0",
+    "restc": "^0.4.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
