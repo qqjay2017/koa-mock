@@ -5,27 +5,34 @@ const app = new Koa();
 const config = require("config");
 const restc = require('restc').koa2()
 
-const { router } = require('./router-config')
+
+const staticServe = require('koa-static');
+const path = require('path')
+const staticPath = path.join(__dirname,'assets')
+
+
+const {
+  router
+} = require('./router-config')
+
+
+
 
 // 路由
 app
   .use(restc)
   .use(router.routes())
   .use(router.allowedMethods())
+  // 静态资源服务器
+  .use(staticServe(staticPath))
 
 
 
 
+    const port = config.get("port");
 
-
-const port = config.get("port");
-
-if (!module.parent) {
-  app.listen(port, () => {
-    console.log(`start in port ${port}`);
-  });
-}
-
-
-
-
+    if (!module.parent) {
+      app.listen(port, () => {
+        console.log(`start in port ${port}`);
+      });
+    }
