@@ -21,10 +21,11 @@ const {
 // 路由
 app
   .use(restc)
+  .use(staticServe(staticPath))
   .use(router.routes())
   .use(router.allowedMethods())
   // 静态资源服务器
-  .use(staticServe(staticPath))
+  
 
 
 
