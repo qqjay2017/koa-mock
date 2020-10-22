@@ -102,3 +102,12 @@ v0.0.1
 ## TODO
 
 使用注解生成swagger
+
+
+
+## docker打包
+
+`$ docker build -t mock-serve .      `
+`$ docker save -o mock-serve.tar mock-serve`
+`$ scp ./mock-serve.tar root@101.32.10.202:/home/app/mock-serve `
+`$ docker run -itd -p 3001:3001 mock-serve   `
