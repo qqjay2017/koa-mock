@@ -15,9 +15,6 @@ const {
   router
 } = require('./router-config')
 
-
-
-
 // 路由
 app
   .use(restc)
@@ -25,10 +22,6 @@ app
   .use(router.routes())
   .use(router.allowedMethods())
   // 静态资源服务器
-  
-
-
-
 
     const port = config.get("port");
 
