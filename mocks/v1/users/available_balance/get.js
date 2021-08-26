@@ -1,0 +1,1 @@
+module.exports = {"balance":9999.36088,"withdrawalFee":0.5}
