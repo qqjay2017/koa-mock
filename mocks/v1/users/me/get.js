@@ -1,10 +1,10 @@
 module.exports = {
-    availableBalance: 0.32728
-   , balance: 1.901045
-   , countryCode: 86
-   , lockBalance: 1.573765
-   , name: "发了Fale"
-   , phone: "13900000000"
-   , pledge: 0
-   , unconfirmedAmount: 0
-}
+  availableBalance: 999991.327286,
+  balance: 999991.901045,
+  countryCode: 86,
+  lockBalance: 999991.573765,
+  name: "发了Fale",
+  phone: "13900000000",
+  pledge: 999991.573765,
+  unconfirmedAmount: 999991.573765,
+};
