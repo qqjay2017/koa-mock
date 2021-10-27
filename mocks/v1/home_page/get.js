@@ -15,7 +15,9 @@ module.exports =(ctx)=>{
     curSavePower: "@integer(1, 3)",
   
     isHaveNewMessage: true,
-  
+    publisherNameEn:"nameee",
+  publisherName:"发行方啊",
+  inviteToken:123,
     isHaveNewNotice: true,
     "productList|8-10": [
       {

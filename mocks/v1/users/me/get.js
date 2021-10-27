@@ -1,10 +1,13 @@
 module.exports = {
-  availableBalance: 999991.327286,
-  balance: 999991.901045,
+  availableBalance: 1000,
+  balance: 10000,
   countryCode: 86,
-  lockBalance: 999991.573765,
+  lockBalance: 2000,
   name: "发了Fale",
   phone: "13900000000",
-  pledge: 999991.573765,
-  unconfirmedAmount: 999991.573765,
+  pledge: 3000,
+  unconfirmedAmount: 4000,
+  publisherNameEn:"nameee",
+  publisherName:"发行方啊",
+  invieteToken:123,
 };

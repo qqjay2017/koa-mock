@@ -1,1 +1,1 @@
-module.exports = { data: { notice: 5, sysMsg: 14 } };
+module.exports = { data: { notice: 500, sysMsg: 140 } };
