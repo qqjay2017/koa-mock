@@ -2,7 +2,7 @@ module.exports = {
   id: 11,
   name: "测试未偿还",
   num: 100,
-  lastNum: 97,
+  lastNum:40,
   price: 0.0385,
   technicalFee: 0,
   period: 5,
