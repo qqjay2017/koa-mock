@@ -48,6 +48,7 @@ app.ws.use(require('koa-route').all('/ws/console', function (ctx) {
 
 // 路由
 app
+ 
   .use(restc)
   .use(staticServe(staticPath))
   .use(router.routes())
