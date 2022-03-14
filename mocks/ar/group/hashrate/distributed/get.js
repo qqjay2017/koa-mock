@@ -3,19 +3,19 @@ module.exports = {
     "msg": {
       "data": [
         {
-          "hashrate": 6, 
+          "hashrate": 6000, 
           "name": "\u5206\u7ec41"
         }, 
         {
-          "hashrate": 20, 
+          "hashrate": 2000000, 
           "name": "\u6d4b\u8bd5001"
         }, 
         {
-          "hashrate": 11, 
+          "hashrate": 8000001, 
           "name": "\u6d4b\u8bd5002"
         }, 
         {
-          "hashrate": 20, 
+          "hashrate": 999920, 
           "name": "\u672a\u5206\u7ec4"
         },
         {

@@ -14,28 +14,28 @@ module.exports = {
           "avg_itgt": null, 
           "date": "2021-10-27 22:22:37", 
           "gid": 1, 
-          "hashrate": 39.0, 
+          "hashrate": 309.0, 
           "node_count": 8
         }, 
         {
           "avg_itgt": 0.815, 
           "date": "2021-10-28 23:59:55", 
           "gid": 1, 
-          "hashrate": 10.0, 
+          "hashrate": 100.0, 
           "node_count": 3
         }, 
         {
           "avg_itgt": 0.695, 
           "date": "2021-10-29 19:20:05", 
           "gid": 1, 
-          "hashrate": 31.0, 
+          "hashrate": 301.0, 
           "node_count": 8
         }, 
         {
           "avg_itgt": 0.695, 
           "date": "2021-11-01 23:59:37", 
           "gid": 1, 
-          "hashrate": 28.0, 
+          "hashrate": 208.0, 
           "node_count": 8
         }, 
         {
