@@ -1,0 +1,1 @@
+module.exports = {"code":10200,"msg":{"data":{"api_allowed":["*"],"email":"admin@minerhub.com","key":"NZt9pZHNl6gu6IeE","last_seen":"2022-03-28 09:53:34","menu_allowed":["*"],"nickname":"admin","role":"\u8d85\u7ea7\u7ba1\u7406\u5458","role_key":"gbZULKukjRJsFS3a"}}}

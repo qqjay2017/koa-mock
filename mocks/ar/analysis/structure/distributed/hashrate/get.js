@@ -1,0 +1,1 @@
+module.exports = {"code":10200,"msg":{"data":{"avg_itgt":0.0,"groups":[{"gid":4,"name":"testing001","tt_hashrate":0},{"gid":5,"name":"testing002","tt_hashrate":0},{"gid":6,"name":"testing003","tt_hashrate":0}],"tt_hashrate":0,"xgid":5,"xname":"TEST\u5206\u7ec4"}}}

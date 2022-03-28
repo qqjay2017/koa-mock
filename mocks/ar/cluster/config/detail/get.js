@@ -1,0 +1,1 @@
+module.exports ={"code":10200,"msg":{"data":{"api_key":"111fddf4","full_node_block_path":"mnt/block1","full_node_current_size":21.6,"full_node_ip":"192.168.102.4","full_node_name":null,"full_node_state":1,"full_node_sync_ratio":1.228,"full_node_total_size":17.59,"has_full_node":true,"name":"\u6d4b\u8bd5\u96c6\u7fa40106"}}}

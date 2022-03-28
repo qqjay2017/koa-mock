@@ -68,6 +68,7 @@ module.exports = ()=>{
       updatedAt: "2021-06-02T06:38:36.910Z",
       deletedAt: null,
     },
+    
     {
       id: 5,
       type: 3,
