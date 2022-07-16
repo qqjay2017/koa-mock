@@ -1,9 +1,11 @@
 module.exports = (ctx)=>{
-    const {
+    let {
         pageSize=10,
         current=1,
 
     } = ctx.query;
+    pageSize = Number(pageSize)
+    current = Number(current)
     if(pageSize*current>100){
         return {
             pageSize: pageSize,
