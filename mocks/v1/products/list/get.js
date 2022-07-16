@@ -4,13 +4,14 @@ module.exports = (ctx)=>{
         current=1,
 
     } = ctx.query;
+    const total = 40
     pageSize = Number(pageSize)
     current = Number(current)
-    if(pageSize*current>100){
+    if(pageSize*current>total){
         return {
             pageSize: pageSize,
         current: current,
-        total: 100,
+        total: total,
         data: []
         }
 
@@ -27,7 +28,7 @@ module.exports = (ctx)=>{
     return {
         pageSize: pageSize,
         current: current,
-        total: 100,
+        total: total,
         data: data
       };
       
