@@ -4,16 +4,17 @@ module.exports = (ctx)=>{
         current=1,
 
     } = ctx.query;
-    const total = 88
+    const total = 33
     pageSize = Number(pageSize)
     current = Number(current)
     const data = []
-    const last = total - pageSize*current
-    if(last<0 ){
-       
+    const last =  pageSize*current - total
+    if(last>0 ){
+   
+       let count = total%10
+       console.log(last,count,'last')
 
-
-        for (let i = 0; i <(total&10); i++) {
+        for (let i = 0; i <count; i++) {
             const id = (current-1)*pageSize+i+1
             data[i] = {
                 id:id,
@@ -21,6 +22,7 @@ module.exports = (ctx)=>{
             }
             
         }
+        console.log(data,'data')
 
       
         return {
